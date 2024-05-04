@@ -1,0 +1,88 @@
+
+.navbar{
+    a{
+
+        text-decoration: none;
+        color: #2BAAB1;
+        font-weight: bold;
+    }
+}
+.signup{
+    max-width: 400px;
+    position: relative;
+    margin: 0px auto;
+    h2{ 
+        font-size:24px;
+        padding: 5px;
+    }
+  .link{
+    padding: 5px;
+  }
+    
+    .createText{
+        font-size: 16px;
+        color: rgb(0 0 0 / 48%);
+        padding: 5px;
+
+
+    }
+    h3{
+        margin: 10px 0px;
+        font-size: 16px;
+        padding: 5px;
+    }
+    div{
+        padding: 5px;
+
+        label{
+            font-size: 14px;
+        }
+        input{
+            font-size: 14px;
+           
+            background-color:rgb(0 0 0 / 8%);
+
+            
+        }
+        
+    }
+    .submitBtn {
+        color: white;
+        background-color :#2BAAB1;
+        width: 10rem;
+        padding: 8px;
+        border: none;
+       
+        margin-left: 5px;
+    }
+    .password-input {
+        position: relative;
+    }
+    
+    .password-input .font {
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+        cursor: pointer;
+        z-index: 1;
+    }
+
+    
+}
+
+.error-message {
+    color: red;
+}
+
+
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
